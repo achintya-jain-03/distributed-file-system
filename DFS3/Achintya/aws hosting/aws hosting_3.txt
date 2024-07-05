@@ -1,0 +1,8 @@
+ng reverse proxy (reverse proxy configuration file was a pain in the ass)
+-Generating a service to run the app continously (gunicorn - create a wsgi.py file for that)
+-Database configuration (first with on serve local database)
+-Then to different port based db.
+
+https://github.com/yeshwanthlm/YouTube/blob/main/flask-on-aws-ec2.md
+
+https://github.com/pc

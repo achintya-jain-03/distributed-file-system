@@ -1,0 +1,7 @@
+ustic/password-reset-example-app/blob/main/requirements.txt
+
+To copy files from server-
+scp -r -i "C:\Users\ACHINTYA\Downloads\accelsoft-stage-apps.pem" ubuntu@3.7.98.219:/home/ubuntu/test_flask_app/password-reset-example-app/wsgi.py/ .
+
+To connect to server-
+ssh -i "C:\Users\ACHINTYA\Downloads\accelsoft-stage-apps.pem" ubuntu@3.7.98.219

@@ -1,0 +1,8 @@
+sk_test (gunicorn sevice name   - use same for nginx)
+
+Run flask db upgrade first (pip install mysqlclient was the issue)
+			   (change SQLALCHEMY_DATABASE_URI if there is an issue)
+Also ldap server registration is disabled for now
+Cause of delays-
+-Deployment procedure- first establishing connection with server using ssh
+-Localhost link conversion usi

@@ -1,0 +1,9 @@
+aws hosting
+
+ ssh -i "C:\Users\ACHINTYA\Downloads\docker-poc.pem" ubuntu@ec2-13-200-166-63.ap-south-1.compute.amazonaws.com
+
+Activate virtaul env ( gunicorn already check if required, restart nginx server if required)
+ sudo systemctl start nginx
+sudo nano /etc/nginx/sites-available/default   (configure port and location)
+
+sudo systemctl start/stop fla
